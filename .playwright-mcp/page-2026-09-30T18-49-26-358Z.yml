@@ -1,0 +1,613 @@
+- generic [active] [ref=f21e1]:
+  - link "Skip to content" [ref=f21e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f21e3]:
+    - generic [ref=f21e4]:
+      - link "Ryan Fernandes" [ref=f21e5] [cursor=pointer]:
+        - /url: "#top"
+      - navigation "Sections" [ref=f21e7]:
+        - list [ref=f21e8]:
+          - listitem [ref=f21e9]:
+            - link "Projects" [ref=f21e10] [cursor=pointer]:
+              - /url: "#projects"
+          - listitem [ref=f21e12]:
+            - link "Experience" [ref=f21e13] [cursor=pointer]:
+              - /url: "#experience"
+          - listitem [ref=f21e14]:
+            - link "Writing" [ref=f21e15] [cursor=pointer]:
+              - /url: "#writing"
+          - listitem [ref=f21e16]:
+            - link "Skills" [ref=f21e17] [cursor=pointer]:
+              - /url: "#skills"
+          - listitem [ref=f21e18]:
+            - link "About" [ref=f21e19] [cursor=pointer]:
+              - /url: "#about"
+      - generic [ref=f21e20]:
+        - link "GitHub" [ref=f21e21] [cursor=pointer]:
+          - /url: https://github.com/RyanFernandes23
+        - link "Contact" [ref=f21e22] [cursor=pointer]:
+          - /url: "#contact"
+  - main [ref=f21e23]:
+    - generic [ref=f21e26]:
+      - generic [ref=f21e27]:
+        - paragraph [ref=f21e28]:
+          - generic [ref=f21e30]: Open to software engineering / AI engineering opportunities
+        - heading "I build AI systems that actually do things." [level=1] [ref=f21e31]
+        - paragraph [ref=f21e32]: Software engineer focused on AI agents, machine learning, backend systems, and full-stack products.
+        - generic [ref=f21e33]:
+          - link "View Projects" [ref=f21e34] [cursor=pointer]:
+            - /url: "#projects"
+          - link "GitHub" [ref=f21e35] [cursor=pointer]:
+            - /url: https://github.com/RyanFernandes23
+            - text: GitHub
+            - generic [aria-hidden] [ref=f21e36]: →
+        - navigation "Elsewhere" [ref=f21e37]:
+          - list [ref=f21e38]:
+            - listitem [ref=f21e39]:
+              - link "LinkedIn" [ref=f21e40] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/ryan-fernandes-294136231/
+            - listitem [ref=f21e41]:
+              - link "Medium" [ref=f21e42] [cursor=pointer]:
+                - /url: https://medium.com/@ryanferds23
+            - listitem [ref=f21e43]:
+              - link "Email" [ref=f21e44] [cursor=pointer]:
+                - /url: mailto:ryanferds23@gmail.com
+      - generic [ref=f21e46]:
+        - img "Ryan Fernandes, software engineer working on AI systems and backend infrastructure." [ref=f21e47]
+        - generic [ref=f21e48]:
+          - paragraph [ref=f21e49]: Focus
+          - list [ref=f21e50]:
+            - listitem [ref=f21e51]: AI Agents
+            - listitem [ref=f21e53]: Machine Learning
+            - listitem [ref=f21e55]: Backend Systems
+            - listitem [ref=f21e57]: Full-Stack Products
+    - region [ref=f21e59]:
+      - generic [ref=f21e60]:
+        - generic [ref=f21e61]:
+          - paragraph [ref=f21e62]: 01 / Projects
+          - heading "Systems, not just integrations." [level=2] [ref=f21e63]
+        - generic [ref=f21e64]:
+          - article [ref=f21e66]:
+            - generic [ref=f21e67]:
+              - generic [ref=f21e68]:
+                - generic [ref=f21e69]: "01"
+                - list [ref=f21e71]:
+                  - listitem [ref=f21e72]:
+                    - generic [ref=f21e73]: AI AGENT
+                  - listitem [ref=f21e74]:
+                    - generic [ref=f21e75]: BACKEND
+                  - listitem [ref=f21e76]:
+                    - generic [ref=f21e77]: SYSTEM DESIGN
+              - paragraph [ref=f21e78]: Agentic AI · Production Systems
+              - heading "AI Copilot — Agentic Navigation & Autonomous Execution" [level=3] [ref=f21e79]:
+                - text: AI Copilot
+                - generic [ref=f21e80]: — Agentic Navigation & Autonomous Execution
+              - generic [ref=f21e81]:
+                - generic [ref=f21e82]:
+                  - term [ref=f21e83]: Screens navigated
+                  - definition [ref=f21e84]:
+                    - generic [ref=f21e85]: 55+
+                    - generic [ref=f21e86]: Screens navigated
+                - generic [ref=f21e87]:
+                  - term [ref=f21e88]: Routing accuracy
+                  - definition [ref=f21e89]:
+                    - generic [ref=f21e90]: 98.2%
+                    - generic [ref=f21e91]: Routing accuracy
+                - generic [ref=f21e92]:
+                  - term [ref=f21e93]: Response time
+                  - definition [ref=f21e94]:
+                    - generic [ref=f21e95]: <1s
+                    - generic [ref=f21e96]: Response time
+                - generic [ref=f21e97]:
+                  - term [ref=f21e98]: Tool execution
+                  - definition [ref=f21e99]:
+                    - generic [ref=f21e100]: MCP
+                    - generic [ref=f21e101]: Tool execution
+            - generic [ref=f21e103]:
+              - paragraph [ref=f21e104]: The problem was not building a chatbot — it was building an agent that could operate an application reliably. The copilot had to resolve what a person actually meant, pick the right place in a large product surface, choose a tool, and carry the action through to a result.
+              - paragraph [ref=f21e105]: Entity registration and CRUD operations are exposed as callable tools over an MCP server, so the agent's capabilities are defined once and consumed through a protocol rather than re-implemented as bespoke endpoints. Conversation history and user-context management keep multi-turn interactions coherent instead of resetting the agent's memory on every turn.
+              - list [ref=f21e106]:
+                - listitem [ref=f21e107]:
+                  - generic [ref=f21e109]: FastMCP server exposing entity registration and CRUD tools
+                - listitem [ref=f21e110]:
+                  - generic [ref=f21e112]: Intelligent routing between application surfaces
+                - listitem [ref=f21e113]:
+                  - generic [ref=f21e115]: Autonomous tool execution rather than suggested actions
+                - listitem [ref=f21e116]:
+                  - generic [ref=f21e118]: Conversation history and user-context management
+              - list [ref=f21e119]:
+                - listitem [ref=f21e120]:
+                  - generic [ref=f21e121]: FastMCP
+                - listitem [ref=f21e122]:
+                  - generic [aria-hidden] [ref=f21e123]: ·
+                  - generic [ref=f21e124]: MCP
+                - listitem [ref=f21e125]:
+                  - generic [aria-hidden] [ref=f21e126]: ·
+                  - generic [ref=f21e127]: Python
+                - listitem [ref=f21e128]:
+                  - generic [aria-hidden] [ref=f21e129]: ·
+                  - generic [ref=f21e130]: Tool calling
+                - listitem [ref=f21e131]:
+                  - generic [aria-hidden] [ref=f21e132]: ·
+                  - generic [ref=f21e133]: Context management
+              - link "Read the case study" [ref=f21e135] [cursor=pointer]:
+                - /url: https://dev.to/ryan_fernandes_fc52e09ac9/building-an-agentic-navigation-autonomous-execution-system-12fi
+                - text: Read the case study
+                - generic [aria-hidden] [ref=f21e136]: →
+              - paragraph [ref=f21e137]: Described from publicly shareable material. Internal implementation details are intentionally not included.
+          - article [ref=f21e139]:
+            - generic [ref=f21e140]:
+              - generic [ref=f21e141]:
+                - generic [ref=f21e142]: "02"
+                - list [ref=f21e144]:
+                  - listitem [ref=f21e145]:
+                    - generic [ref=f21e146]: ML
+                  - listitem [ref=f21e147]:
+                    - generic [ref=f21e148]: COMPUTER VISION
+                  - listitem [ref=f21e149]:
+                    - generic [ref=f21e150]: RESEARCH
+              - paragraph [ref=f21e151]: Multimodal ML · Research
+              - heading "BFRB Gesture Detection — via Wrist Sensor Fusion" [level=3] [ref=f21e152]:
+                - text: BFRB Gesture Detection
+                - generic [ref=f21e153]: — via Wrist Sensor Fusion
+              - generic [ref=f21e154]:
+                - generic [ref=f21e155]:
+                  - term [ref=f21e156]: Sequences
+                  - definition [ref=f21e157]:
+                    - generic [ref=f21e158]: 8K+
+                    - generic [ref=f21e159]: Sequences
+                - generic [ref=f21e160]:
+                  - term [ref=f21e161]: Gesture classes
+                  - definition [ref=f21e162]:
+                    - generic [ref=f21e163]: "18"
+                    - generic [ref=f21e164]: Gesture classes
+                - generic [ref=f21e165]:
+                  - term [ref=f21e166]: Macro F1
+                  - definition [ref=f21e167]:
+                    - generic [ref=f21e168]: 71%
+                    - generic [ref=f21e169]: Macro F1
+                - generic [ref=f21e170]:
+                  - term [ref=f21e171]: Max timesteps
+                  - definition [ref=f21e172]:
+                    - generic [ref=f21e173]: "700"
+                    - generic [ref=f21e174]: Max timesteps
+            - generic [ref=f21e176]:
+              - paragraph [ref=f21e177]: Wrist-worn sensing gives you an inertial stream and a coarse spatial stream that do not describe the same thing. The inertial channel is fast and noisy; the spatial channel is slow but grounded. Treating them as one flat feature vector throws away the structure of the problem.
+              - paragraph [ref=f21e178]: Two encoders run independently — a temporal branch over the inertial signal and a convolutional branch over the spatial frames — and are merged through a gated cross-modal fusion layer that learns how much to trust each modality per timestep. Sequences are variable-length, so batching is handled around padding and masking rather than truncation.
+              - paragraph [ref=f21e179]: Training runs under mixed precision with cosine learning-rate scheduling and label smoothing — the last of which matters here, because gesture boundaries in self-recorded data are inherently fuzzy.
+              - list [ref=f21e180]:
+                - listitem [ref=f21e181]:
+                  - generic [ref=f21e183]: Dual-encoder multimodal architecture
+                - listitem [ref=f21e184]:
+                  - generic [ref=f21e186]: Gated cross-modal fusion between inertial and spatial streams
+                - listitem [ref=f21e187]:
+                  - generic [ref=f21e189]: Variable-length sequence handling up to 700 timesteps
+                - listitem [ref=f21e190]:
+                  - generic [ref=f21e192]: Mixed precision training with cosine LR scheduling
+                - listitem [ref=f21e193]:
+                  - generic [ref=f21e195]: Label smoothing for ambiguous gesture boundaries
+              - list [ref=f21e196]:
+                - listitem [ref=f21e197]:
+                  - generic [ref=f21e198]: PyTorch
+                - listitem [ref=f21e199]:
+                  - generic [aria-hidden] [ref=f21e200]: ·
+                  - generic [ref=f21e201]: Conv1D
+                - listitem [ref=f21e202]:
+                  - generic [aria-hidden] [ref=f21e203]: ·
+                  - generic [ref=f21e204]: BiLSTM
+                - listitem [ref=f21e205]:
+                  - generic [aria-hidden] [ref=f21e206]: ·
+                  - generic [ref=f21e207]: Transformer
+                - listitem [ref=f21e208]:
+                  - generic [aria-hidden] [ref=f21e209]: ·
+                  - generic [ref=f21e210]: ResNet50
+              - link "View the notebook" [ref=f21e212] [cursor=pointer]:
+                - /url: https://www.kaggle.com/code/ryanferds/cmi-king-s-notebook/edit
+                - text: View the notebook
+                - generic [aria-hidden] [ref=f21e213]: →
+          - generic [ref=f21e214]:
+            - article [ref=f21e216]:
+              - generic [ref=f21e217]: "03"
+              - paragraph [ref=f21e220]: AI Product · Full Stack
+              - heading "RateMyResume" [level=3] [ref=f21e221]
+              - paragraph [ref=f21e222]: An AI-powered resume reviewer that analyses resumes and returns actionable feedback on clarity, structure, and impact.
+              - list [ref=f21e223]:
+                - listitem [ref=f21e224]:
+                  - generic [ref=f21e226]: AI-powered resume analysis with actionable feedback
+                - listitem [ref=f21e227]:
+                  - generic [ref=f21e229]: Document ingestion and text extraction
+                - listitem [ref=f21e230]:
+                  - generic [ref=f21e232]: Python backend APIs for the analysis pipeline
+                - listitem [ref=f21e233]:
+                  - generic [ref=f21e235]: Next.js frontend for the review experience
+              - generic [ref=f21e236]:
+                - list [ref=f21e237]:
+                  - listitem [ref=f21e238]:
+                    - generic [ref=f21e239]: FULL STACK
+                  - listitem [ref=f21e240]:
+                    - generic [ref=f21e241]: BACKEND
+                  - listitem [ref=f21e242]:
+                    - generic [ref=f21e243]: ML
+                - list [ref=f21e244]:
+                  - listitem [ref=f21e245]:
+                    - generic [ref=f21e246]: Python
+                  - listitem [ref=f21e247]:
+                    - generic [aria-hidden] [ref=f21e248]: ·
+                    - generic [ref=f21e249]: Next.js
+                  - listitem [ref=f21e250]:
+                    - generic [aria-hidden] [ref=f21e251]: ·
+                    - generic [ref=f21e252]: LLM pipeline
+                - link "Visit RateMyResume" [ref=f21e254] [cursor=pointer]:
+                  - /url: https://www.ratemyresume.cc/
+                  - text: Visit RateMyResume
+                  - generic [aria-hidden] [ref=f21e255]: →
+            - article [ref=f21e257]:
+              - generic [ref=f21e258]: "04"
+              - paragraph [ref=f21e261]: Deep Learning · Fundamentals
+              - heading "Vision Transformer" [level=3] [ref=f21e262]
+              - paragraph [ref=f21e263]: Built From Scratch
+              - paragraph [ref=f21e264]: A complete Vision Transformer implemented from first principles in PyTorch, with no external ViT library.
+              - list [ref=f21e265]:
+                - listitem [ref=f21e266]:
+                  - generic [ref=f21e268]: Custom linear layer and custom layer normalisation
+                - listitem [ref=f21e269]:
+                  - generic [ref=f21e271]: Multi-head self-attention implemented from scratch
+                - listitem [ref=f21e272]:
+                  - generic [ref=f21e274]: Patch embedding and positional encoding
+                - listitem [ref=f21e275]:
+                  - generic [ref=f21e277]: Transformer encoder blocks and a full forward pass
+              - generic [ref=f21e278]:
+                - list [ref=f21e279]:
+                  - listitem [ref=f21e280]:
+                    - generic [ref=f21e281]: ML
+                  - listitem [ref=f21e282]:
+                    - generic [ref=f21e283]: RESEARCH
+                - list [ref=f21e284]:
+                  - listitem [ref=f21e285]:
+                    - generic [ref=f21e286]: PyTorch
+                - link "Read the write-up" [ref=f21e288] [cursor=pointer]:
+                  - /url: https://medium.com/@ryanferds23/creating-my-own-vision-transformer-vit-from-scratch-207343f2e71a
+                  - text: Read the write-up
+                  - generic [aria-hidden] [ref=f21e289]: →
+            - article [ref=f21e291]:
+              - generic [ref=f21e292]: "05"
+              - paragraph [ref=f21e295]: Systems Engineering · Pipeline
+              - heading "MuffinVoice" [level=3] [ref=f21e296]
+              - paragraph [ref=f21e297]: Ebooks to audiobooks
+              - paragraph [ref=f21e298]: A complete text-to-speech pipeline that turns ebooks into audiobooks.
+              - list [ref=f21e299]:
+                - listitem [ref=f21e300]:
+                  - generic [ref=f21e302]: Document ingestion and text extraction
+                - listitem [ref=f21e303]:
+                  - generic [ref=f21e305]: Text processing for long-form input
+                - listitem [ref=f21e306]:
+                  - generic [ref=f21e308]: TTS generation and audio processing
+                - listitem [ref=f21e309]:
+                  - generic [ref=f21e311]: Pipeline orchestration across stages
+              - generic [ref=f21e312]:
+                - list [ref=f21e313]:
+                  - listitem [ref=f21e314]:
+                    - generic [ref=f21e315]: SYSTEM DESIGN
+                  - listitem [ref=f21e316]:
+                    - generic [ref=f21e317]: BACKEND
+                - link "View the source" [ref=f21e319] [cursor=pointer]:
+                  - /url: https://github.com/RyanFernandes23/MuffinVoice
+                  - text: View the source
+                  - generic [aria-hidden] [ref=f21e320]: →
+            - article [ref=f21e322]:
+              - generic [ref=f21e323]: "06"
+              - paragraph [ref=f21e326]: Full Stack · Voice Agent
+              - heading "Pesto for FieldMotion" [level=3] [ref=f21e327]
+              - paragraph [ref=f21e328]: A full-stack application with a Python backend and a Next.js frontend, built around real-world operational workflows and a telephony agent.
+              - list [ref=f21e329]:
+                - listitem [ref=f21e330]:
+                  - generic [ref=f21e332]: Telephony and real-time voice agent built on Twilio and LiveKit
+                - listitem [ref=f21e333]:
+                  - generic [ref=f21e335]: Python backend APIs owning the domain logic
+                - listitem [ref=f21e336]:
+                  - generic [ref=f21e338]: Next.js frontend over a defined API layer
+                - listitem [ref=f21e339]:
+                  - generic [ref=f21e341]: Workflows designed around real-world operations
+              - generic [ref=f21e342]:
+                - list [ref=f21e343]:
+                  - listitem [ref=f21e344]:
+                    - generic [ref=f21e345]: AI AGENT
+                  - listitem [ref=f21e346]:
+                    - generic [ref=f21e347]: FULL STACK
+                  - listitem [ref=f21e348]:
+                    - generic [ref=f21e349]: BACKEND
+                - list [ref=f21e350]:
+                  - listitem [ref=f21e351]:
+                    - generic [ref=f21e352]: Python
+                  - listitem [ref=f21e353]:
+                    - generic [aria-hidden] [ref=f21e354]: ·
+                    - generic [ref=f21e355]: Next.js
+                  - listitem [ref=f21e356]:
+                    - generic [aria-hidden] [ref=f21e357]: ·
+                    - generic [ref=f21e358]: Twilio
+                  - listitem [ref=f21e359]:
+                    - generic [aria-hidden] [ref=f21e360]: ·
+                    - generic [ref=f21e361]: LiveKit
+                - generic [ref=f21e362]:
+                  - link "Live Demo" [ref=f21e363] [cursor=pointer]:
+                    - /url: https://pesto-for-fieldmotion.vercel.app/
+                    - text: Live Demo
+                    - generic [aria-hidden] [ref=f21e364]: →
+                  - link "Backend" [ref=f21e365] [cursor=pointer]:
+                    - /url: https://github.com/RyanFernandes23/Pesto-for-fieldmotion-backend
+                    - text: Backend
+                    - generic [aria-hidden] [ref=f21e366]: →
+    - region [ref=f21e367]:
+      - generic [ref=f21e368]:
+        - generic [ref=f21e369]:
+          - paragraph [ref=f21e370]: 02 / Experience
+          - heading "Where the work has been." [level=2] [ref=f21e371]
+        - list [ref=f21e372]:
+          - listitem [ref=f21e374]:
+            - generic [ref=f21e377]:
+              - heading "Aatmunn Software Development Center" [level=3] [ref=f21e379]
+              - paragraph [ref=f21e380]:
+                - generic [ref=f21e381]: Associate Software Engineer
+                - generic [aria-hidden] [ref=f21e382]: /
+                - generic [ref=f21e383]: July 2025 — June 2026
+              - list [ref=f21e384]:
+                - listitem [ref=f21e385]:
+                  - generic [ref=f21e387]: Built an AI-powered assistant capable of navigating and interacting with an application across 55+ screens.
+                - listitem [ref=f21e388]:
+                  - generic [ref=f21e390]: Implemented intelligent routing achieving 98.2% routing accuracy with response times under one second.
+                - listitem [ref=f21e391]:
+                  - generic [ref=f21e393]: Built an MCP server using FastMCP, exposing entity registration and CRUD operations as tools.
+                - listitem [ref=f21e394]:
+                  - generic [ref=f21e396]: Implemented conversation history and user-context management for consistent, context-aware interactions.
+              - link "Technical article" [ref=f21e398] [cursor=pointer]:
+                - /url: https://dev.to/ryan_fernandes_fc52e09ac9/building-an-agentic-navigation-autonomous-execution-system-12fi
+                - text: Technical article
+                - generic [aria-hidden] [ref=f21e399]: →
+          - listitem [ref=f21e400]:
+            - generic [ref=f21e403]:
+              - heading "CyberSafeHaven Technologies" [level=3] [ref=f21e405]
+              - paragraph [ref=f21e406]:
+                - generic [ref=f21e407]: Software Developer Intern
+                - generic [aria-hidden] [ref=f21e408]: /
+                - generic [ref=f21e409]: March 2025 — May 2025
+              - list [ref=f21e410]:
+                - listitem [ref=f21e411]:
+                  - generic [ref=f21e413]: Developed the Add Evidence feature for Cyberisk4Board.
+                - listitem [ref=f21e414]:
+                  - generic [ref=f21e416]: Improved phishing-domain detection by integrating GrayHat Warfare and DNSTwist.
+                - listitem [ref=f21e417]:
+                  - generic [ref=f21e419]: Refactored partner data storage in ThreatProwler from list-based JSON storage to Redis hash-based storage, enabling direct lookup by ID.
+    - region [ref=f21e420]:
+      - generic [ref=f21e422]:
+        - generic [ref=f21e423]:
+          - generic [ref=f21e424]:
+            - paragraph [ref=f21e425]: 03 / Writing & Research
+            - heading "Writing about the mechanics." [level=2] [ref=f21e426]
+            - paragraph [ref=f21e427]: I don’t only use AI frameworks — I like understanding and building the systems underneath them.
+          - link "medium.com/@ryanferds23" [ref=f21e429] [cursor=pointer]:
+            - /url: https://medium.com/@ryanferds23
+            - generic [aria-hidden] [ref=f21e431]: →
+        - list [ref=f21e432]:
+          - listitem [ref=f21e433]:
+            - link [ref=f21e434] [cursor=pointer]:
+              - /url: https://medium.com/@ryanferds23/creating-my-own-vision-transformer-vit-from-scratch-207343f2e71a
+              - paragraph [ref=f21e435]: Medium
+              - heading "Creating My Own Vision Transformer (ViT) From Scratch" [level=3] [ref=f21e436]
+              - paragraph [ref=f21e437]: A walk through building attention, patch embeddings, and the encoder stack directly in PyTorch — because a framework that hands you the block is exactly where understanding stops.
+              - generic [ref=f21e438]:
+                - text: Read
+                - generic [aria-hidden] [ref=f21e439]: →
+          - listitem [ref=f21e440]:
+            - link [ref=f21e441] [cursor=pointer]:
+              - /url: https://dev.to/ryan_fernandes_fc52e09ac9/building-an-agentic-navigation-autonomous-execution-system-12fi
+              - paragraph [ref=f21e442]: DEV
+              - heading "Building an Agentic Navigation & Autonomous Execution System" [level=3] [ref=f21e443]
+              - paragraph [ref=f21e444]: How intent understanding, routing, and MCP tool calls combine into an agent that operates an application rather than describing what to click.
+              - generic [ref=f21e445]:
+                - text: Read
+                - generic [aria-hidden] [ref=f21e446]: →
+    - region [ref=f21e447]:
+      - generic [ref=f21e448]:
+        - generic [ref=f21e449]:
+          - paragraph [ref=f21e450]: 04 / Skills
+          - heading "The toolkit, grouped by kind." [level=2] [ref=f21e451]
+        - generic [ref=f21e452]:
+          - generic [ref=f21e453]:
+            - generic [ref=f21e454]:
+              - heading "Languages" [level=3] [ref=f21e455]
+              - generic [ref=f21e456]: "07"
+            - list [ref=f21e457]:
+              - listitem [ref=f21e458]:
+                - generic [ref=f21e459]: Python
+              - listitem [ref=f21e460]:
+                - generic [ref=f21e461]: C/C++
+              - listitem [ref=f21e462]:
+                - generic [ref=f21e463]: MATLAB
+              - listitem [ref=f21e464]:
+                - generic [ref=f21e465]: PostgreSQL
+              - listitem [ref=f21e466]:
+                - generic [ref=f21e467]: JavaScript
+              - listitem [ref=f21e468]:
+                - generic [ref=f21e469]: HTML
+              - listitem [ref=f21e470]:
+                - generic [ref=f21e471]: CSS
+          - generic [ref=f21e472]:
+            - generic [ref=f21e473]:
+              - heading "AI / ML" [level=3] [ref=f21e474]
+              - generic [ref=f21e475]: "08"
+            - list [ref=f21e476]:
+              - listitem [ref=f21e477]:
+                - generic [ref=f21e478]: PyTorch
+              - listitem [ref=f21e479]:
+                - generic [ref=f21e480]: TensorFlow
+              - listitem [ref=f21e481]:
+                - generic [ref=f21e482]: Scikit-learn
+              - listitem [ref=f21e483]:
+                - generic [ref=f21e484]: Transformers
+              - listitem [ref=f21e485]:
+                - generic [ref=f21e486]: Deep Learning
+              - listitem [ref=f21e487]:
+                - generic [ref=f21e488]: Computer Vision
+              - listitem [ref=f21e489]:
+                - generic [ref=f21e490]: Time-Series Modeling
+              - listitem [ref=f21e491]:
+                - generic [ref=f21e492]: Multimodal Learning
+          - generic [ref=f21e493]:
+            - generic [ref=f21e494]:
+              - heading "AI Engineering" [level=3] [ref=f21e495]
+              - generic [ref=f21e496]: "09"
+            - list [ref=f21e497]:
+              - listitem [ref=f21e498]:
+                - generic [ref=f21e499]: FastMCP
+              - listitem [ref=f21e500]:
+                - generic [ref=f21e501]: MCP
+              - listitem [ref=f21e502]:
+                - generic [ref=f21e503]: LangChain
+              - listitem [ref=f21e504]:
+                - generic [ref=f21e505]: LangGraph
+              - listitem [ref=f21e506]:
+                - generic [ref=f21e507]: LangSmith
+              - listitem [ref=f21e508]:
+                - generic [ref=f21e509]: Agentic AI
+              - listitem [ref=f21e510]:
+                - generic [ref=f21e511]: LLM Applications
+              - listitem [ref=f21e512]:
+                - generic [ref=f21e513]: Tool Calling
+              - listitem [ref=f21e514]:
+                - generic [ref=f21e515]: Context Management
+          - generic [ref=f21e516]:
+            - generic [ref=f21e517]:
+              - heading "Backend" [level=3] [ref=f21e518]
+              - generic [ref=f21e519]: "07"
+            - list [ref=f21e520]:
+              - listitem [ref=f21e521]:
+                - generic [ref=f21e522]: FastAPI
+              - listitem [ref=f21e523]:
+                - generic [ref=f21e524]: Redis
+              - listitem [ref=f21e525]:
+                - generic [ref=f21e526]: Celery
+              - listitem [ref=f21e527]:
+                - generic [ref=f21e528]: asyncio
+              - listitem [ref=f21e529]:
+                - generic [ref=f21e530]: WebSockets
+              - listitem [ref=f21e531]:
+                - generic [ref=f21e532]: Async Programming
+              - listitem [ref=f21e533]:
+                - generic [ref=f21e534]: API Design
+          - generic [ref=f21e535]:
+            - generic [ref=f21e536]:
+              - heading "Data" [level=3] [ref=f21e537]
+              - generic [ref=f21e538]: "04"
+            - list [ref=f21e539]:
+              - listitem [ref=f21e540]:
+                - generic [ref=f21e541]: PySpark
+              - listitem [ref=f21e542]:
+                - generic [ref=f21e543]: Pandas
+              - listitem [ref=f21e544]:
+                - generic [ref=f21e545]: NumPy
+              - listitem [ref=f21e546]:
+                - generic [ref=f21e547]: Data Processing
+          - generic [ref=f21e548]:
+            - generic [ref=f21e549]:
+              - heading "Infrastructure / Tools" [level=3] [ref=f21e550]
+              - generic [ref=f21e551]: "08"
+            - list [ref=f21e552]:
+              - listitem [ref=f21e553]:
+                - generic [ref=f21e554]: Docker
+              - listitem [ref=f21e555]:
+                - generic [ref=f21e556]: Git
+              - listitem [ref=f21e557]:
+                - generic [ref=f21e558]: GitHub
+              - listitem [ref=f21e559]:
+                - generic [ref=f21e560]: CI/CD
+              - listitem [ref=f21e561]:
+                - generic [ref=f21e562]: Grafana
+              - listitem [ref=f21e563]:
+                - generic [ref=f21e564]: VS Code
+              - listitem [ref=f21e565]:
+                - generic [ref=f21e566]: Jupyter
+              - listitem [ref=f21e567]:
+                - generic [ref=f21e568]: Google Colab
+    - region [ref=f21e569]:
+      - generic [ref=f21e570]:
+        - generic [ref=f21e571]:
+          - generic [ref=f21e572]:
+            - paragraph [ref=f21e573]: / Open Source
+            - heading "More experiments, systems, and source code." [level=2] [ref=f21e574]
+          - link "github.com/RyanFernandes23" [ref=f21e575] [cursor=pointer]:
+            - /url: https://github.com/RyanFernandes23
+            - generic [aria-hidden] [ref=f21e577]: →
+        - generic [ref=f21e578]: Loading repositories…
+    - region [ref=f21e584]:
+      - generic [ref=f21e585]:
+        - generic [ref=f21e586]:
+          - paragraph [ref=f21e587]: 05 / About
+          - heading "How I build." [level=2] [ref=f21e588]
+          - paragraph [ref=f21e589]: I build AI-powered products from the model layer to the API, agent, and frontend.
+        - generic [ref=f21e590]:
+          - generic [ref=f21e591]:
+            - generic [ref=f21e593]:
+              - term [ref=f21e594]: Understand the system
+              - definition [ref=f21e595]: I like understanding what happens underneath the abstraction — not just calling the API.
+            - generic [ref=f21e597]:
+              - term [ref=f21e598]: Build end-to-end
+              - definition [ref=f21e599]: From model and agent logic to APIs, infrastructure, and frontend, I enjoy owning the complete system.
+            - generic [ref=f21e601]:
+              - term [ref=f21e602]: Measure what matters
+              - definition [ref=f21e603]: Latency, accuracy, reliability, and developer experience matter more than adding unnecessary complexity.
+          - img "Ryan Fernandes, software engineer working on AI systems and backend infrastructure." [ref=f21e605]
+        - paragraph [ref=f21e607]: Software Engineer building AI systems, intelligent agents, and scalable backend infrastructure.
+    - region [ref=f21e608]:
+      - generic [ref=f21e610]:
+        - generic [ref=f21e611]:
+          - paragraph [ref=f21e612]: / Contact
+          - heading "Have an interesting engineering problem? Let’s build something." [level=2] [ref=f21e613]: Have an interesting engineering problem?Let’s build something.
+        - link "ryanferds23@gmail.com" [ref=f21e615] [cursor=pointer]:
+          - /url: mailto:ryanferds23@gmail.com
+        - list [ref=f21e619]:
+          - listitem [ref=f21e620]:
+            - link "GitHub github.com/RyanFernandes23" [ref=f21e621] [cursor=pointer]:
+              - /url: https://github.com/RyanFernandes23
+              - generic [ref=f21e622]: GitHub
+              - generic [ref=f21e623]:
+                - text: github.com/RyanFernandes23
+                - generic [aria-hidden] [ref=f21e624]: →
+          - listitem [ref=f21e625]:
+            - link "LinkedIn linkedin.com/in/ryan-fernandes" [ref=f21e626] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ryan-fernandes-294136231/
+              - generic [ref=f21e627]: LinkedIn
+              - generic [ref=f21e628]:
+                - text: linkedin.com/in/ryan-fernandes
+                - generic [aria-hidden] [ref=f21e629]: →
+          - listitem [ref=f21e630]:
+            - link "Medium medium.com/@ryanferds23" [ref=f21e631] [cursor=pointer]:
+              - /url: https://medium.com/@ryanferds23
+              - generic [ref=f21e632]: Medium
+              - generic [ref=f21e633]:
+                - text: medium.com/@ryanferds23
+                - generic [aria-hidden] [ref=f21e634]: →
+  - contentinfo [ref=f21e635]:
+    - generic [ref=f21e636]:
+      - generic [ref=f21e637]:
+        - paragraph [ref=f21e638]: Ryan Fernandes © 2026
+        - list [ref=f21e639]:
+          - listitem [ref=f21e640]:
+            - link "GitHub" [ref=f21e641] [cursor=pointer]:
+              - /url: https://github.com/RyanFernandes23
+          - listitem [ref=f21e642]:
+            - link "LinkedIn" [ref=f21e643] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ryan-fernandes-294136231/
+          - listitem [ref=f21e644]:
+            - link "Medium" [ref=f21e645] [cursor=pointer]:
+              - /url: https://medium.com/@ryanferds23
+          - listitem [ref=f21e646]:
+            - link "Email" [ref=f21e647] [cursor=pointer]:
+              - /url: mailto:ryanferds23@gmail.com
+      - paragraph [ref=f21e648]: Built with Python, Next.js, curiosity, and an unreasonable amount of debugging.
+  - button "Open Next.js Dev Tools" [ref=f21e654] [cursor=pointer]:
+    - generic [ref=f21e657]:
+      - text: Compiling
+      - generic [ref=f21e658]:
+        - generic [ref=f21e659]: .
+        - generic [ref=f21e660]: .
+        - generic [ref=f21e661]: .
