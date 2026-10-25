@@ -133,12 +133,12 @@ export const projects: Project[] = [
   },
 
   {
-    id: "pesto-fieldmotion",
-    name: "Pesto for FieldMotion",
+    id: "crayna.com",
+    name: "crayna.com AI receptionist for ServiceTrade",
     category: "Full Stack · Voice Agent",
     summary:
-      "AI voice receptionist — full-stack app that answers and handles incoming calls via a telephony agent.",
-    tags: ["AI AGENT", "FULL STACK", "BACKEND"],
+      "AI voice receptionist — full-stack app that answers and handles incoming calls for contractors using ServiceTrade FSM software.",
+    tags: ["AI AGENT", "Twilio", "BACKEND"],
     body: [
       "Answers and handles incoming calls. The agent runs on Twilio for telephony and LiveKit for real-time media — reachable by voice and through the interface.",
       "Next.js frontend over a Python backend. Defined API layer owns the data and domain logic.",
@@ -153,7 +153,7 @@ export const projects: Project[] = [
     links: [
       {
         label: "Live Demo",
-        href: "https://pesto-for-fieldmotion.vercel.app/",
+        href: "https://www.crayna.com/",
         external: true,
       },
       {
