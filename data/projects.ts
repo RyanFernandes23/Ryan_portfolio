@@ -138,7 +138,7 @@ export const projects: Project[] = [
     category: "Full Stack · Voice Agent",
     summary:
       "AI voice receptionist — full-stack app that answers and handles incoming calls for contractors using ServiceTrade FSM software.",
-    tags: ["AI AGENT", "Twilio", "BACKEND"],
+    tags: ["AI AGENT", "FRONTEND", "BACKEND"],
     body: [
       "Answers and handles incoming calls. The agent runs on Twilio for telephony and LiveKit for real-time media — reachable by voice and through the interface.",
       "Next.js frontend over a Python backend. Defined API layer owns the data and domain logic.",
